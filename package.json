@@ -1,0 +1,26 @@
+{
+  "name": "simple-ton-project-tgbot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@swc/core": "^1.6.6",
+    "@types/node": "^20.14.9",
+    "@types/qs": "^6.9.15",
+    "qs": "^6.12.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.2"
+  },
+  "dependencies": {
+    "@orbs-network/ton-access": "^2.3.3",
+    "@ton/core": "^0.56.3",
+    "@ton/crypto": "^3.2.0",
+    "@ton/ton": "^13.11.2",
+    "dotenv": "^16.4.5",
+    "prettier": "^3.3.2",
+    "telegraf": "^4.16.3"
+  },
+  "scripts": {
+    "start": "ts-node ./src/index.ts"
+  }
+}
